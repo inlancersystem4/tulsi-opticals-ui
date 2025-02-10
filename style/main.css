@@ -1,4 +1,10 @@
 /*! tailwindcss v4.0.5 | MIT License | https://tailwindcss.com */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=My+Soul&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -18,6 +24,32 @@
     --default-mono-font-variation-settings: var(
       --font-mono--font-variation-settings
     );
+    --color-blue-gray-dark: var(--color-blue-gray-dark);
+    --color-gray-dark: var(--color-gray-dark);
+    --color-gray-medium: var(--color-gray-medium);
+    --color-gray-light: var(--color-gray-light);
+    --color-gray-muted: var(--color-gray-muted);
+    --color-black-light: var(--color-black-light);
+    --color-yellow: var(--color-yellow);
+    --color-black-dark: var(--color-black-dark);
+    --color-gray-extra-light: var(--color-gray-extra-light);
+    --color-green-dark: var(--color-green-dark);
+    --color-gray-deep-dark: var(--color-gray-deep-dark);
+    --color-red: var(--color-red);
+    --color-gray-ultra-light: var(--color-gray-ultra-light);
+    --color-navy-dark: var(--color-navy-dark);
+    --color-green-bright: var(--color-green-bright);
+    --color-pink-light: var(--color-pink-light);
+    --color-navy-deep: var(--color-navy-deep);
+    --color-gray-charcoal: var(--color-gray-charcoal);
+    --color-white-pure: var(--color-white-pure);
+    --color-gray-muted-dark: var(--color-gray-muted-dark);
+    --color-gray-silver: var(--color-gray-silver);
+    --color-gray-soft: var(--color-gray-soft);
+    --color-gray-cloud: var(--color-gray-cloud);
+    --color-black-deep: var(--color-black-deep);
+    --color-black-pure: var(--color-black-pure);
+    --color-gray-cool: var(--color-gray-cool);
   }
 }
 @layer base {
@@ -162,3 +194,31 @@
   }
 }
 @layer utilities;
+:root {
+  --color-blue-gray-dark: #516a85;
+  --color-gray-dark: #4b5563;
+  --color-gray-medium: #9ca3af;
+  --color-gray-light: #d1d5db;
+  --color-gray-muted: #757575;
+  --color-black-light: #333333;
+  --color-yellow: #f2c94c;
+  --color-black-dark: #292d32;
+  --color-gray-extra-light: #f4f5f6;
+  --color-green-dark: #289242;
+  --color-gray-deep-dark: #23262f;
+  --color-red: #e66a63;
+  --color-gray-ultra-light: #e6e8ec;
+  --color-navy-dark: #0f182e;
+  --color-green-bright: #219653;
+  --color-pink-light: #fff4f4;
+  --color-navy-deep: #013258;
+  --color-gray-charcoal: #454343;
+  --color-white-pure: #fefdfd;
+  --color-gray-muted-dark: #6c7278;
+  --color-gray-silver: #c7c9cb;
+  --color-gray-soft: #8e8e93;
+  --color-gray-cloud: #cdd4dc;
+  --color-black-deep: #242424;
+  --color-black-pure: #1e1e1e;
+  --color-gray-cool: #b4bfca;
+}
