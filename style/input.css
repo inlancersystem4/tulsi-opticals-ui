@@ -73,3 +73,49 @@
   --font-inter: "Inter", serif;
   --font-sora: "Sora", serif;
 }
+
+.mobile-layout {
+  @apply w-full min-h-svh max-w-[420px] mx-auto relative font-manrope;
+  background: linear-gradient(
+    347.99deg,
+    var(--color-gray-cloud) 0%,
+    #ffffff 100%
+  );
+}
+
+.splash-screen {
+  @apply fixed inset-0 w-full h-full bg-white place-items-center grid;
+}
+
+.login-form {
+  @apply w-full py-[16px] bg-white rounded-2xl space-y-[20px] px-[24px];
+}
+
+.login-form .login-btn {
+  @apply w-full text-center bg-black text-white font-semibold text-base py-2.5 rounded-xl focus:outline-2 focus:outline-offset-2 focus:outline-black font-poppins hover:opacity-80 disabled:opacity-40;
+}
+
+.login-input-group {
+  @apply space-y-[6px];
+}
+
+.login-input-group label {
+  @apply text-gray-dark text-sm font-medium block;
+}
+
+.login-input-group label span {
+  @apply text-red;
+}
+
+.login-input-group input {
+  @apply border rounded-lg border-gray-light w-full px-[14px] py-[8px] text-sm placeholder:text-gray-medium;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+}
+
+.login-input-group.is-error .error {
+  @apply block;
+}
+
+.login-input-group .error {
+  @apply text-xs text-red hidden;
+}
